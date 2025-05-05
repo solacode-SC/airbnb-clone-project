@@ -55,3 +55,15 @@ A full-stack clone of Airbnb to simulate a real-world booking platform.
 - **Booking System**: Users can book available properties with date validation.
 - **Review System**: Users can leave ratings and reviews for properties.
 - **Payment Integration**: Secure payments are processed per booking.
+
+## API Security
+
+- **Authentication**: Users must log in to access protected endpoints.
+- **Authorization**: Only property owners can edit their listings.
+- **Rate Limiting**: Prevents abuse and brute-force attacks.
+- **Input Validation**: Protects against SQL injection and XSS.
+
+Security is crucial for:
+- **User Data**: Prevents data leaks and identity theft.
+- **Payments**: Ensures secure transactions.
+- **System Stability**: Blocks malicious behavior.
