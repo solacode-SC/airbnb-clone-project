@@ -22,3 +22,10 @@ A full-stack clone of Airbnb to simulate a real-world booking platform.
 - **Security Analyst**: Implements API and system security protocols.
 - **Project Manager**: Coordinates workflow, tracks progress, and manages tasks.
 
+## Technology Stack
+
+- **Django**: Backend web framework for building APIs and views.
+- **MySQL**: Relational database to store users, bookings, and payments.
+- **GraphQL**: API query language for flexible client-server communication.
+- **Docker**: Containerization tool to ensure consistent environments.
+- **GitHub Actions**: CI/CD tool to automate testing and deployment.
