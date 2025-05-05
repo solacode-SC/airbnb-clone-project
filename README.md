@@ -67,3 +67,14 @@ Security is crucial for:
 - **User Data**: Prevents data leaks and identity theft.
 - **Payments**: Ensures secure transactions.
 - **System Stability**: Blocks malicious behavior.
+
+## CI/CD Pipeline
+
+CI/CD pipelines automate testing and deployment to streamline development.
+
+- **CI (Continuous Integration)**: Automatically runs tests on each pull request.
+- **CD (Continuous Deployment)**: Deploys changes to staging or production.
+
+Tools:
+- **GitHub Actions**: For running workflows.
+- **Docker**: Ensures consistent environments across development and production.
