@@ -29,3 +29,20 @@ A full-stack clone of Airbnb to simulate a real-world booking platform.
 - **GraphQL**: API query language for flexible client-server communication.
 - **Docker**: Containerization tool to ensure consistent environments.
 - **GitHub Actions**: CI/CD tool to automate testing and deployment.
+
+## Database Design
+
+### Entities & Fields:
+
+- **Users**: id, name, email, password, role
+- **Properties**: id, owner_id (FK), title, location, price
+- **Bookings**: id, user_id (FK), property_id (FK), start_date, end_date
+- **Reviews**: id, user_id (FK), property_id (FK), rating, comment
+- **Payments**: id, booking_id (FK), amount, status
+
+### Relationships:
+
+- One user can own many properties.
+- A property can have many bookings and reviews.
+- Each booking is linked to one user and one property.
+- Each payment is tied to a booking.
