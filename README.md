@@ -46,3 +46,12 @@ A full-stack clone of Airbnb to simulate a real-world booking platform.
 - A property can have many bookings and reviews.
 - Each booking is linked to one user and one property.
 - Each payment is tied to a booking.
+
+
+## Feature Breakdown
+
+- **User Management**: Users can register, log in, and manage profiles.
+- **Property Management**: Hosts can list, edit, or delete their properties.
+- **Booking System**: Users can book available properties with date validation.
+- **Review System**: Users can leave ratings and reviews for properties.
+- **Payment Integration**: Secure payments are processed per booking.
